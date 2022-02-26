@@ -3,6 +3,11 @@ spring:
     active: local
   application:
     name: uac-server
+  datasource:
+    url: jdbc:mysql://407f15171q.51vip.biz:10001/henry-uac?useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: '!@##@!qweewq'
+    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8088
 
@@ -18,3 +23,7 @@ swagger:
   description: This Api Doc Only Open In Dev
   version: 1.0
   enable: true
+nacos:
+  config:
+    server-addr: 407f15171q.51vip.biz:10008
+    namespace: 6c580f3e-33bc-45e3-a280-7af8bbacea32
