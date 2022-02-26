@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: uac-server
+server:
+  port: 8088
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mybatis-plus:
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+swagger:
+  appName: Henry Article
+  description: This Api Doc Only Open In Dev
+  version: 1.0
+  enable: true
