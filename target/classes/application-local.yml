@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:mysql://407f15171q.51vip.biz:10001/henry-uac?useSSL=true&serverTimezone=GMT%2B8
-    username: root
-    password: '!@##@!qweewq'
-    driver-class-name: com.mysql.cj.jdbc.Driver
